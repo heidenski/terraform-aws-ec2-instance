@@ -1,7 +1,7 @@
 ######
 # EC2 instance
 ######
-resource "aws_instance" "anteraja" {
+resource "aws_instance" "sekolahlinux" {
   count = "${var.instance_count}"
 
   ami                    = "${var.ami}"
